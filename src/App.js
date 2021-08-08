@@ -1,10 +1,10 @@
-import React from "react";
-import Example from "./components/Example";
+import GameBoard from "./components/GameBoard";
+
 const App = () => {
   return (
     <div className="w-full h-screen flex flex-row justify-center">
       <div className="flex flex-col justify-center">
-        <Example label="Tracecamp CRA Template" />
+        <GameBoard />
       </div>
     </div>
   );
